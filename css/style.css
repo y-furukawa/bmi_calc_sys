@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	color:#222;
+}
+
+img{
+	max-width:100%;
+	height:auto;
+	vertical-align:bottom;
+}
+
+p{
+	line-height:1.6;
+}
+
+
+#siteheader{
+	background-color:#767676;
+	background:url(../img/bmi_top.jpg) no-repeat;
+	background-size:contain;
+	width:90%;
+	height:320px;
+	margin:auto;
+}
+
+#siteheader h1{
+	max-width:980px;
+	width:auto;
+	position:relative;
+	top:60%; left:10%;
+	color:#000;
+	font-size:3em;
+	line-height:80px;
+	font-weight:bold;
+	background:rgba(255,255,255,0.5);
+	padding:10px;
+
+}
+
+main{
+	padding:80px 20px;
+	margin:0 auto;
+	max-width:640px;
+	text-align:center;
+}
+
+table#input_area{
+	margin:0 auto;
+}
+
+th,
+td{
+	padding:15px;
+}
+
+table#input_area th{
+	width:70px;
+}
+
+table#input_area td[colspan="2"]{
+	text-align:center;
+}
+
+
+table#data{
+	width:100%;
+	border-collapse:collapse;
+}
+
+table#data th{
+	background-color:#D4E0FF;
+}
+
+table#data th,
+table#data td{
+	border:solid 1px #AAA;
+}
+
+input[type="text"]{
+	padding:10px;
+	border:solid 1px #555;
+	font-size:1.2em;
+}
+
+input[type="submit"]{
+	padding:10px 15px;
+	font-size:1.2em;
+	background-color:#FFCBAD;
+	border:solid 1px #888;
+	border-radius:10px;
+}
+input[type="email"]{
+	padding:5px;
+	border:solid 1px #888;
+	border-radius:10px;
+	margin:15px 0px;
+}
+
+#result{
+	font-size:1.2em;
+	margin-bottom:56px;
+}
+
+
+#result .bigger{
+	font-size:2em;
+	color:#FD4346;
+}
+#result .large{
+	font-size:1.3em;
+	color:#006699;}
+
+#result strong{
+	color:red;
+}
+
+#sitefooter{
+	background-color:#767676;
+	color:#FFEDED;
+	padding:20px 0;
+	text-align:center;
+}/* CSS Document */
+
